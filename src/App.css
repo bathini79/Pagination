@@ -29,3 +29,29 @@
 .small {
   font-size: 0.75rem;
 }
+.product-container{
+  display: flex;
+  flex-direction: column;
+  gap:10px
+}
+.container{
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+.sub-container{
+  display: flex;
+  flex-direction: column;
+}
+.pagination-container{
+  display: flex;
+  gap:10px;
+  margin-top: 10px;
+  justify-content: center;
+}
+.active{
+  background-color: #61dafb;
+}
+.page{
+  cursor: pointer;
+}
